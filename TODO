@@ -1,0 +1,8 @@
+TODO after "release":
+  - remove redundant code
+  - reduce branching wherever possible
+  - reimplement the search and transposition table
+  - idea: combine information about the move and move score in one unsigned long long
+
+TODO for v2.0:
+  - rewrite engine from scratch
