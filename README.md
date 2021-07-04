@@ -1,6 +1,6 @@
 # molecule
 
-### UPDATE (04. October, 2017.): There will be no updates on this engine. ###
+### UPDATE (04. October, 2017.): There will be no updates on this engine.
 
 molecule is a chess engine written in C++14 and is derivate of
 [VICE](http://bluefever.net/Downloads/ViceReadMe.html).
@@ -15,41 +15,48 @@ the best.
 The goal of this project was to learn as much as possible (in short period of
 time, approx. 2.5 months) about methods and algorithms that make a chess engine.
 
-### Try Molecule
+## History
 
-If you wanna play against Molecule or test your own chess engine against Molecule follow these steps:
+I've developed molecule as my first project, from Feb 2017. until May/June 2017.
+The project was removed from GitHub (I cannot remember when), but since it was
+my first project I've decided to put it back online. **You should be proud of
+your first projects!**
+
+## Try Molecule
+
+If you wanna play against Molecule or test your own chess engine against
+Molecule follow these steps:
 
 1. in folder /dependency/magic-bits run make
 2. in folder /src run make
 3. run ./molecule
 
-### Info
+## Info
 
 Molecule was tested on Xubuntu 16.04. 64-bit with Arena Linux 1.1.
 
 ELO Rating: N/A
 
-!!! Molecule currently doesn't support opening book !!!
+**!!! Molecule currently doesn't support opening book !!!**
 
-
-### Future work
+## Future work
 
 I'm quite aware that Molecule's source code is far from good, but I'm happy
 that it works. Because of that I'm planning on making a new version of Molecule,
 written from scratch. But before that, this version need improvement in
 evaluation function and support for opening book.
 
-### Resources
+## Resources
 
 On my journey I found few good resources on developing a chess engine. Most
 valuable were the following:
 
 1. [Chess Engine in C](https://www.youtube.com/playlist?list=PLZ1QII7yudbc-Ky058TEaOstZHVbT-2hg)
 2. [Chess Programming Wiki](http://chessprogramming.wikispaces.com/)
-3. [Bruce Moreland's Site])http://web.archive.org/web/20080216031116/http://www.seanet.com/~brucemo/topics/topics.htm)
+3. [Bruce Moreland's Site](http://web.archive.org/web/20080216031116/http://www.seanet.com/~brucemo/topics/topics.htm)
 4. [Robert Hyatt's paper on bitboards](http://www.craftychess.com/hyatt/boardrep.html)
 
-### Credits
+## Credits
 
 Molecule would not be possible without VICE. Every time I would get stuck on
 development, VICE, with it's youtube playist, would clarify what is the next
